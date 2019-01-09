@@ -1,20 +1,11 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
-
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Introduction
+UI Service for showing orchestrator schedule status using Springboot and Quartz.
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+1. Checkout the project using 'git clone'
+2. mvn clean install to build the project
+3. java -jar target/orchestrator-1.0.0.jar to run the Springboot app
+4. Visit 'http://host:8081/scheduler' to get the scheduler status
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Technologies used
+Java 11, Springboot, Spring MVC, Quartz Scheduler, Maven, IntelliJ, Gitlab, Heroku
