@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  quartz:
+     properties:
+       org:
+         quartz:
+           scheduler:
+             misfirePolicy: doNothing
+             instanceName: IHC
+             instanceId: AUTO
+           threadPool:
+             threadCount: 50
+           jobStore:
+             class: org.quartz.simpl.RAMJobStore
+logging:
+  level:
+    org:
+      hibernate:
+        type: info
+      springframework:
+        transaction:
+           interceptor: "TRACE"
